@@ -1,9 +1,17 @@
+'use client';
 import Photo from "@/components/Photo";
 import Socials from "@/components/Socials";
 import Stats from "@/components/Stats";
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
+import {saveAs} from 'file-saver';
+
 function Home() {
+
+  const handleDowanload = () => {
+    const filePath = './Cv.pdf'
+    saveAs(filePath, 'Mohamed-akkaoui-Cv.pdf');
+  }
   return (
     <section className="h-full">
       <div className="container mx-auto h-full">
@@ -20,12 +28,11 @@ function Home() {
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <a
-                href="/CV-Akkaoui-Mohamed.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                download="CV-Akkaoui-Mohamed.pdf"
               >
                 <Button
+                  onClick={handleDowanload}
                   variant="outline"
                   size="lg"
                   className="uppercase flex items-center gap-2"
