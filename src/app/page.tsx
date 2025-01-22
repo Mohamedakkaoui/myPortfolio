@@ -5,11 +5,10 @@ import Stats from "@/components/Stats";
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
 import {saveAs} from 'file-saver';
-
 function Home() {
 
-  const handleDowanload = () => {
-    const filePath = './Cv.pdf'
+  const handleDownload = () => {
+    const filePath = "/CV-English-Version.pdf"
     saveAs(filePath, 'Mohamed-akkaoui-Cv.pdf');
   }
   return (
@@ -23,24 +22,19 @@ function Home() {
               <span className="text-accent">Mohamed Akkaoui</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              I’m a dedicated Full Stack Developer focused on crafting
+              I'm a dedicated Full Stack Developer focused on crafting
               innovative web solutions and continuously enhancing my skills.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
+              <Button
+                onClick={handleDownload}
+                variant="outline"
+                size="lg"
+                className="uppercase flex items-center gap-2"
               >
-                <Button
-                  onClick={handleDowanload}
-                  variant="outline"
-                  size="lg"
-                  className="uppercase flex items-center gap-2"
-                >
-                  <span>Download CV</span>
-                  <FiDownload className="text-xl" />
-                </Button>
-              </a>
+                <span>Download CV</span>
+                <FiDownload className="text-xl" />
+              </Button>
               <div className="mb-8 xl:mb-0">
                 <Socials
                   containerStyles="flex gap-6"

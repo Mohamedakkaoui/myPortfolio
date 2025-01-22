@@ -43,7 +43,7 @@ const projects = [
         name: "Bootstrap",
       },
     ],
-    image: Image2,
+    image: "/Screen Shot 2024-06-26 at 15.10.25.png",
     live: "Soon",
     github:
       "https://github.com/Mohamedakkaoui/Real-Estate-Website/tree/betaVersion2",
@@ -68,7 +68,7 @@ const projects = [
         name: "Framer Motion",
       },
     ],
-    image: Image1,
+    image: "/Screenshot 2024-09-29 164620.png",
     live: "Soon",
     github:
       "https://github.com/Mohamedakkaoui/Next.js-Projects/tree/master/portfolio",
@@ -99,7 +99,7 @@ const projects = [
         name: "TailwindCSS",
       },
     ],
-    image: Image3,
+    image:"/Screenshot 2024-11-23 224248.png",
     live: "Soon",
     github: "https://github.com/Mohamedakkaoui/E-learning.AI",
   },

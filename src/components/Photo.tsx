@@ -1,6 +1,5 @@
 "use client";
 import {  motion } from "framer-motion";
-import Selfie from "@/Public/image00001-min.png";
 import Image from "next/image";
 function Photo() {
   return (
@@ -21,13 +20,13 @@ function Photo() {
           className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten"
         >
           <Image
-            src={Selfie}
+            src="/image00001-min.png"
             priority
             quality={100}
             fill
             alt=""
             className="object-contain rounded-t-full "
-          ></Image>
+          />
         </motion.div>
       </motion.div>
     </div>
