@@ -8,20 +8,20 @@ const services = [
     num: "Mohamed Ouadou",
     title: "Full-stack Developer",
     description:
-      "Mohamed wasn't just focused on solving problems but challenging himself to find the best solutions possible. His curiosity, innate, was rivalled only by his speed at which he learns new things. And one thing always shone through: a natural people person. Any group project, Mohamed would always come forward and make sure the collaboration flowed really smoothly, bringing into light the strengths of all those around him.",
+      "Mohamed wasn't just focused on solving problems but challenging himself to find the best solutions possible. His curiosity, innate, was rivalled only by his speed at which he learns new things...",
     href: "",
   },
   {
     num: "Hiba Ibrahimi",
     title: "Full stack Engineer",
     description:
-      "I highly recommend my colleague, who works with me as a full-stack developer at 2Peerfect Company. He demonstrates great ambition in finding solutions to every problem he encounters .... Even in tough situations, he manages to come up with a solution in the end. Additionally, his expertise as a front-end developer is excellent, along with strong back-end skills.",
+      "I highly recommend my colleague, who works with me as a full-stack developer at 2Peerfect Company. He demonstrates great ambition in finding solutions to every problem he encounters .... Even in tough situations, he manages to come up with a solution in the end",
     href: "",
   },
   {
     num: "Zineb Laabdi",
     title: "Full Stack developer",
-    description: "One of his most outstanding qualities is his exceptional problem-solving ability. Whether tackling complex coding challenges or managing time-sensitive project requirements, he consistently delivers efficient and innovative solutions.In addition to his technical expertise .... It was truly a privilege to work alongside such a talented and reliable developer. I am confident he will be a tremendous asset to any organization he joins, and I look forward to witnessing his continued success.",
+    description: "One of his most outstanding qualities is his exceptional problem-solving ability. Whether tackling complex coding challenges or managing time-sensitive project requirements, he consistently delivers efficient and innovative solutions.In addition to his technical expertise ....",
     href: "",
   },
 ];
