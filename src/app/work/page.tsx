@@ -12,9 +12,6 @@ import {
 } from "@/components/ui/tooltip";
 import Link from "next/link";
 import Image from "next/image";
-import Image1 from "@/Public/Screenshot 2024-09-29 164620.png";
-import Image2 from "@/Public/Screen Shot 2024-06-26 at 15.10.25.png";
-import Image3 from "@/Public/Screenshot 2024-11-23 224248.png";
 import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
