@@ -19,7 +19,7 @@ function Home() {
             <span className="text-xl">Web Developer</span>
             <h1 className="h1 mb-6">
               {`Hello I'am`} <br />
-              <span className="text-accent">Mohamed Akkaoui</span>
+              <span className="text-accent">Akkaoui Mohamed</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
               I'm a dedicated Full Stack Developer focused on crafting

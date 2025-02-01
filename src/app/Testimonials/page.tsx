@@ -24,7 +24,7 @@ const services = [
     description: "One of his most outstanding qualities is his exceptional problem-solving ability. Whether tackling complex coding challenges or managing time-sensitive project requirements, he consistently delivers efficient and innovative solutions.In addition to his technical expertise ....",
     href: "",
   },
-];
+]     ;
 
 
 function Services() {
