@@ -56,7 +56,7 @@ const experience = {
     {
       company: "2CA busniess",
       position: "Full Stack Developer",
-      duration: "October 2022 - Present",
+      duration: "October 2024 - Present",
     },
     {
       company: "2Peerfect",
@@ -70,7 +70,7 @@ const experience = {
     },
     {
       company: "Digisell",
-      position: "Conseiller Commercial",
+      position: "sales consultant",
       duration: "June 2022 - January 2023",
     }, 
   ],
