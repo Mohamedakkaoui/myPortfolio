@@ -8,8 +8,8 @@ import {saveAs} from 'file-saver';
 function Home() {
 
   const handleDownload = () => {
-    const filePath = "/CV-English-Version.pdf"
-    saveAs(filePath, 'Mohamed-akkaoui-Cv.pdf');
+    const filePath = "/Latest-Cv-french.pdf"
+    saveAs(filePath, 'Akkaoui-Cv.pdf');
   }
   return (
     <section className="h-full">
