@@ -8,7 +8,7 @@ import {saveAs} from 'file-saver';
 function Home() {
 
   const handleDownload = () => {
-    const filePath = "/Latest-Cv-french.pdf"
+    const filePath = "/CV_AKKAOUI_MOHAMED.pdf"
     saveAs(filePath, 'Akkaoui-Cv.pdf');
   }
   return (
